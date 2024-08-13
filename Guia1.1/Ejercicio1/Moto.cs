@@ -39,11 +39,11 @@ namespace Ejercicio1
 
         }
 
-        public double DepreceacionAnual(int año, double tasa)
+        public double DepreciacionAnual(int año, double tasa)
         {
-            //ESTO ESTA MAL XD
-
-            return ValorFabricacion * (1-tasa);
+            
+            int añosDeuso = año - Modelo;
+            return ValorFabricacion * (Math.Pow(añosDeuso,(1-tasa)));
 
         }
 

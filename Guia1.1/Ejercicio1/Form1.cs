@@ -44,10 +44,10 @@ namespace Ejercicio1
             formResultados.lbResultados.Items.Add(m.VerDescripcion());
 
             double valorLineal = m.DepreciacionLineal(año, vidaUtil);
-            formResultados.lbResultados.Items.Add($"Depreaccion lineal: {valorLineal}");
+            formResultados.lbResultados.Items.Add($"Depreciacion lineal: {valorLineal}");
 
-            double valorAnual = m.DepreceacionAnual(año, tasa);
-            formResultados.lbResultados.Items.Add($"Depreacion Anual:{valorAnual}");
+            double valorAnual = m.DepreciacionAnual(año, tasa);
+            formResultados.lbResultados.Items.Add($"Depreciacion Anual:{valorAnual}");
 
             formResultados.ShowDialog();
            
