@@ -23,7 +23,7 @@ namespace Ejercicio1
             Marca = marca;
             Modelo = modelo;   
             ValorFabricacion= valorFabricacion;
-
+            
         }
 
         //METODOS DE LA CLASE
